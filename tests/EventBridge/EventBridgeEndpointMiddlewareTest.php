@@ -51,10 +51,10 @@ class EventBridgeEndpointMiddlewareTest extends TestCase
         if (!$isCrtAvailable && !empty($endpointId)) {
             $this->markTestSkipped();
         }
-        $isMvpRegion = getenv('AIRGAPPED_REGION') == 'LCK';
-        if ($isMvpRegion) {
-            $this->markTestSkipped();
-        }
+//        $isMvpRegion = getenv('AIRGAPPED_REGION') == 'LCK';
+//        if ($isMvpRegion) {
+//            $this->markTestSkipped();
+//        }
         
         $clientConfig = [
             'region' => $clientRegion,
