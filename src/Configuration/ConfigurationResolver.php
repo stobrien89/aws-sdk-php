@@ -33,6 +33,7 @@ class ConfigurationResolver
         $config = []
     )
     {
+        $foo = isset($key) ?? null;
         $envValue = self::env($key, $expectedType);
         if (!is_null($envValue)) {
             return $envValue;
