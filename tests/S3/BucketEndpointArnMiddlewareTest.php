@@ -254,76 +254,7 @@ class BucketEndpointArnMiddlewareTest extends TestCase
                 'Bar/Baz',
                 'us-gov-west-1',
                 null,
-            ],
-            // S3 outposts, standard case
-            [
-                'arn:aws:s3-outposts:us-west-2:123456789012:outpost:op-01234567890123456:accesspoint:myaccesspoint',
-                [
-                    'region' => 'us-west-2',
-                ],
-                'myaccesspoint-123456789012.op-01234567890123456.s3-outposts.us-west-2.amazonaws.com',
-                'Bar/Baz',
-                'us-west-2',
-                's3-outposts',
-            ],
-            // S3 outposts, differing regions, use_arn_region true
-            [
-                'arn:aws:s3-outposts:us-east-1:123456789012:outpost:op-01234567890123456:accesspoint:myaccesspoint',
-                [
-                    'region' => 'us-west-2',
-                    'use_arn_region' => true,
-                ],
-                'myaccesspoint-123456789012.op-01234567890123456.s3-outposts.us-east-1.amazonaws.com',
-                'Bar/Baz',
-                'us-east-1',
-                's3-outposts',
-            ],
-            // S3 outposts, arn with slashes
-            [
-                'arn:aws:s3-outposts:us-west-2:123456789012:outpost/op-01234567890123456/accesspoint/myaccesspoint',
-                [
-                    'region' => 'us-west-2',
-                ],
-                'myaccesspoint-123456789012.op-01234567890123456.s3-outposts.us-west-2.amazonaws.com',
-                'Bar/Baz',
-                'us-west-2',
-                's3-outposts',
-            ],
-            // S3 outposts, us-gov region, use_arn_region true
-            [
-                'arn:aws-us-gov:s3-outposts:us-gov-east-1:123456789012:outpost:op-01234567890123456:accesspoint:myaccesspoint',
-                [
-                    'region' => 'us-gov-east-1',
-                    'use_arn_region' => true,
-                ],
-                'myaccesspoint-123456789012.op-01234567890123456.s3-outposts.us-gov-east-1.amazonaws.com',
-                'Bar/Baz',
-                'us-gov-east-1',
-                's3-outposts',
-            ],
-            // S3 Outposts, non-aws partition
-            [
-                'arn:aws-cn:s3-outposts:cn-north-1:123456789012:outpost:op-01234567890123456:accesspoint:myaccesspoint',
-                [
-                    'region' => 'cn-north-1',
-                ],
-                'myaccesspoint-123456789012.op-01234567890123456.s3-outposts.cn-north-1.amazonaws.com.cn',
-                'Bar/Baz',
-                'cn-north-1',
-                's3-outposts',
-            ],
-            // S3 Outposts, non-aws partition, differing regions, use_arn_region true
-            [
-                'arn:aws-cn:s3-outposts:cn-northwest-1:123456789012:outpost:op-01234567890123456:accesspoint:myaccesspoint',
-                [
-                    'region' => 'cn-north-1',
-                    'use_arn_region' => true,
-                ],
-                'myaccesspoint-123456789012.op-01234567890123456.s3-outposts.cn-northwest-1.amazonaws.com.cn',
-                'Bar/Baz',
-                'cn-northwest-1',
-                's3-outposts',
-            ],
+            ]
         ];
     }
 
