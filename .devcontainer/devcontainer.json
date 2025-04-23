@@ -1,0 +1,18 @@
+{gh pr checkout 3061/The provided information includes two files from the `stobrien89/aws-sdk-php` repository:
+
+1. **File Path:** `.changes/3.100.0`
+   **Commit:** b24bf7882fed0ef029996dcdcba6c273b69db8fe
+   **Content:**
+   - This file includes a list of updates with types like "feature" and "api-change" for categories like "PersonalizeRuntime", "CodeBuild", "CodeCommit", "Personalize", and "PersonalizeEvents".
+   - Descriptions detail new features and API changes, such as improvements to Amazon Personalize and AWS CodeBuild.
+
+2. **File Path:** `src/data/cleanroomsml/2023-09-06/examples-1.json`
+   **Commit:** b24bf7882fed0ef029996dcdcba6c273b69db8fe
+   **Content:**
+   - This JSON file includes a version key and an empty "examples" object, indicating a structured format likely intended for future data or examples related to cleanroomsml.
+
+If you need more specific details or actions, please let me know!
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
