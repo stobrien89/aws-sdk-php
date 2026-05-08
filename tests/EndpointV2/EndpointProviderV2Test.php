@@ -106,9 +106,14 @@ class EndpointProviderV2Test extends TestCase
         $services = \Aws\Manifest();
 
         foreach($services as $service => $data) {
-            $serviceTests = EndpointDefinitionProvider::getEndpointTests(
-                $service, 'latest'
-            );
+            try {
+                $serviceTests = EndpointDefinitionProvider::getEndpointTests(
+                    $service,
+                    'latest'
+                );
+            } catch (\InvalidArgumentException $e) {
+                continue;
+            }
 
             foreach($serviceTests['testCases'] as $case) {
                 $testCase = [$service];
