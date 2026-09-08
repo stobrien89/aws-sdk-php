@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## next release
+## 3.394.10 - 2026-09-08
 
 * `Aws\mgn` - This release adds support for configuring the EBS volume initialization rate and delete on termination behavior in launch configuration template
 * `Aws\PinpointSMSVoiceV2` - This feature will allow customers to specify an area-code when requesting a 10DLC number. Why it matters- Customers can now select a number that matches where their business is located.
