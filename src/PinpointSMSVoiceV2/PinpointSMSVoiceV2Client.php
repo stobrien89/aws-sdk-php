@@ -137,6 +137,8 @@ use Aws\AwsClient;
  * @method \GuzzleHttp\Promise\Promise getProtectConfigurationCountryRuleSetAsync(array $args = [])
  * @method \Aws\Result getResourcePolicy(array $args = [])
  * @method \GuzzleHttp\Promise\Promise getResourcePolicyAsync(array $args = [])
+ * @method \Aws\Result listAvailablePhoneNumbers(array $args = [])
+ * @method \GuzzleHttp\Promise\Promise listAvailablePhoneNumbersAsync(array $args = [])
  * @method \Aws\Result listNotifyCountries(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listNotifyCountriesAsync(array $args = [])
  * @method \Aws\Result listPoolOriginationIdentities(array $args = [])
