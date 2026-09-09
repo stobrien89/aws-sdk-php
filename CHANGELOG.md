@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## next release
+## 3.394.11 - 2026-09-09
 
 * `Aws\MediaLive` - MediaLive now supports Manual Style Control for vertical caption positioning in TTML, WebVTT, and Embedded captions, Contextual Metadata Enrichment via Elemental Inference, and an Output Usage field on MediaPackage v2 for Dynamic Multiview validation.
 * `Aws\MediaTailor` - Added the AWS Service Request function type for MediaTailor Functions, enabling authenticated requests to AWS Elemental Inference for contextual ad targeting during ad insertion.
