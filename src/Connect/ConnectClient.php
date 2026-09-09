@@ -425,6 +425,8 @@ use Aws\AwsClient;
  * @method \GuzzleHttp\Promise\Promise listDefaultVocabulariesAsync(array $args = [])
  * @method \Aws\Result listEntitySecurityProfiles(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listEntitySecurityProfilesAsync(array $args = [])
+ * @method \Aws\Result listEvaluationFormAIVersions(array $args = [])
+ * @method \GuzzleHttp\Promise\Promise listEvaluationFormAIVersionsAsync(array $args = [])
  * @method \Aws\Result listEvaluationFormVersions(array $args = [])
  * @method \GuzzleHttp\Promise\Promise listEvaluationFormVersionsAsync(array $args = [])
  * @method \Aws\Result listEvaluationForms(array $args = [])
