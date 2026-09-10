@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## next release
+## 3.394.12 - 2026-09-10
 
 * `Aws\RTBFabric` - AWS RTB Fabric now lets you control how traffic is routed to your responder gateway across Availability Zones. Set the new clientRoutingPolicy parameter to keep traffic within the same Availability Zone or distribute traffic across all Availability Zones.
 * `Aws\SageMaker` - This release adds the ability for customers to attach customer owned Elastic Network Interfaces (ENIs) to HyperPod cluster nodes.
