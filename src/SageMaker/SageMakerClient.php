@@ -11,6 +11,8 @@ use Aws\AwsClient;
  * @method \GuzzleHttp\Promise\Promise addTagsAsync(array $args = [])
  * @method \Aws\Result associateTrialComponent(array $args = [])
  * @method \GuzzleHttp\Promise\Promise associateTrialComponentAsync(array $args = [])
+ * @method \Aws\Result attachClusterNodeNetworkInterface(array $args = [])
+ * @method \GuzzleHttp\Promise\Promise attachClusterNodeNetworkInterfaceAsync(array $args = [])
  * @method \Aws\Result attachClusterNodeVolume(array $args = [])
  * @method \GuzzleHttp\Promise\Promise attachClusterNodeVolumeAsync(array $args = [])
  * @method \Aws\Result batchAddClusterNodes(array $args = [])

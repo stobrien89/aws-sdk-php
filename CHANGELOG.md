@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## next release
+
+* `Aws\RTBFabric` - AWS RTB Fabric now lets you control how traffic is routed to your responder gateway across Availability Zones. Set the new clientRoutingPolicy parameter to keep traffic within the same Availability Zone or distribute traffic across all Availability Zones.
+* `Aws\SageMaker` - This release adds the ability for customers to attach customer owned Elastic Network Interfaces (ENIs) to HyperPod cluster nodes.
+* `Aws\EC2` - The CreateImage API now supports a BootModeOverride parameter to explicitly set UEFI boot mode on a new AMI, overriding the source instance's inherited boot mode.
+* `Aws\BedrockAgent` - TwelveLabs Marengo 3.0 is now an embedding model option in Amazon Bedrock Managed Knowledge Base. Create multimodal embeddings for video, audio, and image content that capture visual scenes, speech, and video cues, not just transcribed text.
+* `Aws\Resiliencehubv2` - This release adds the ListTestRunSourceEvents and ListTestRunDependencies APIs, which return the alarm state changes during a test run and the dependencies the run blocked.
+* `Aws\Outposts` - Added fields to identify Outpost generation and rack scaling configuration on Outpost and CatalogItem resources.
+
 ## 3.394.11 - 2026-09-09
 
 * `Aws\MediaLive` - MediaLive now supports Manual Style Control for vertical caption positioning in TTML, WebVTT, and Embedded captions, Contextual Metadata Enrichment via Elemental Inference, and an Output Usage field on MediaPackage v2 for Dynamic Multiview validation.
