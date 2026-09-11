@@ -183,6 +183,7 @@ use Aws\AwsClient;
  *     networkConfiguration?: array{securityGroups?: list<string>, subnets?: list<string>, ...},
  *     cpu?: string,
  *     memory?: string,
+ *     cpuArchitecture?: 'ARM64'|'X86_64',
  *     scalingTarget?: array{
  *         minTaskCount?: int,
  *         maxTaskCount?: int,
@@ -215,6 +216,7 @@ use Aws\AwsClient;
  *     networkConfiguration?: array{securityGroups?: list<string>, subnets?: list<string>, ...},
  *     cpu?: string,
  *     memory?: string,
+ *     cpuArchitecture?: 'ARM64'|'X86_64',
  *     scalingTarget?: array{
  *         minTaskCount?: int,
  *         maxTaskCount?: int,
@@ -1527,6 +1529,7 @@ use Aws\AwsClient;
  *     networkConfiguration?: array{securityGroups?: list<string>, subnets?: list<string>, ...},
  *     cpu?: string,
  *     memory?: string,
+ *     cpuArchitecture?: 'ARM64'|'X86_64',
  *     scalingTarget?: array{
  *         minTaskCount?: int,
  *         maxTaskCount?: int,
@@ -1556,6 +1559,7 @@ use Aws\AwsClient;
  *     networkConfiguration?: array{securityGroups?: list<string>, subnets?: list<string>, ...},
  *     cpu?: string,
  *     memory?: string,
+ *     cpuArchitecture?: 'ARM64'|'X86_64',
  *     scalingTarget?: array{
  *         minTaskCount?: int,
  *         maxTaskCount?: int,

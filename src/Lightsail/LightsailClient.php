@@ -350,6 +350,9 @@ use Aws\AwsClient;
  *     tags?: list<array{key?: string, value?: string, ...}>,
  *     certificateName?: string,
  *     viewerMinimumTlsProtocolVersion?: 'TLSv1.1_2016'|'TLSv1.2_2018'|'TLSv1.2_2019'|'TLSv1.2_2021',
+ *     enablePrivateOriginAccess?: bool,
+ *     defaultRootObject?: string,
+ *     customErrorResponses?: list<array{errorCode?: int, responseCode?: string, responsePagePath?: string, errorCachingMinTTL?: int, ...}>,
  *     ...,
  * } $args = [])
  * @method \GuzzleHttp\Promise\Promise createDistributionAsync(array $args = [])
@@ -385,6 +388,9 @@ use Aws\AwsClient;
  *     tags?: list<array{key?: string, value?: string, ...}>,
  *     certificateName?: string,
  *     viewerMinimumTlsProtocolVersion?: 'TLSv1.1_2016'|'TLSv1.2_2018'|'TLSv1.2_2019'|'TLSv1.2_2021',
+ *     enablePrivateOriginAccess?: bool,
+ *     defaultRootObject?: string,
+ *     customErrorResponses?: list<array{errorCode?: int, responseCode?: string, responsePagePath?: string, errorCachingMinTTL?: int, ...}>,
  *     ...,
  * } $args = [])
  * @method \Aws\Result createDomain(array $args = [])
@@ -1505,6 +1511,9 @@ use Aws\AwsClient;
  *     viewerMinimumTlsProtocolVersion?: 'TLSv1.1_2016'|'TLSv1.2_2018'|'TLSv1.2_2019'|'TLSv1.2_2021',
  *     certificateName?: string,
  *     useDefaultCertificate?: bool,
+ *     enablePrivateOriginAccess?: bool,
+ *     defaultRootObject?: string,
+ *     customErrorResponses?: list<array{errorCode?: int, responseCode?: string, responsePagePath?: string, errorCachingMinTTL?: int, ...}>,
  *     ...,
  * } $args = [])
  * @method \GuzzleHttp\Promise\Promise updateDistributionAsync(array $args = [])
@@ -1539,6 +1548,9 @@ use Aws\AwsClient;
  *     viewerMinimumTlsProtocolVersion?: 'TLSv1.1_2016'|'TLSv1.2_2018'|'TLSv1.2_2019'|'TLSv1.2_2021',
  *     certificateName?: string,
  *     useDefaultCertificate?: bool,
+ *     enablePrivateOriginAccess?: bool,
+ *     defaultRootObject?: string,
+ *     customErrorResponses?: list<array{errorCode?: int, responseCode?: string, responsePagePath?: string, errorCachingMinTTL?: int, ...}>,
  *     ...,
  * } $args = [])
  * @method \Aws\Result updateDistributionBundle(array $args = [])

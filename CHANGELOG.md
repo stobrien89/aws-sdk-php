@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## next release
+
+* `Aws\` - Adds `@phpstan-method` method annotations for better service client static analysis support.
+* `Aws\Invoicing` - Add ListProcurementPortals and ListProcurementPortalSuppliers APIs to retrieve AWS-supported 3rd party procurement portals and their suppliers for e-invoice delivery and purchase order retrieval.
+* `Aws\MediaConvert` - Adds Dolby Vision metadata to Probe results, including profile, level, and presence of the RPU, base layer, and enhancement layer. Adds video sample and display aspect ratios. Adds the UnprocessableEntityException (HTTP 422) error to Probe for recognized but malformed or corrupt inputs.
+* `Aws\ECS` - This feature adds support for setting the cpu architecture type that should be used to launch tasks for an Express Gateway Service.
+* `Aws\Batch` - Added new bulk job APIs (CancelJobs, TerminateJobs, TerminateServiceJobs) and new fields on ListJobs and ListServiceJobs responses. This allows customers to cancel or terminate multiple jobs in a single request. ListJobs and ListServiceJobs responses now include isCancelled and isTerminated fields.
+* `Aws\S3` - Updated S3 Object Lock Default Retention documentation.
+* `Aws\Lightsail` - Amazon Lightsail now lets you serve website content from a private Lightsail bucket through a Lightsail distribution. This release adds enablePrivateOriginAccess to the CreateDistribution and UpdateDistribution actions, plus new defaultRootObject and customErrorResponses options.
+
 ## 3.394.12 - 2026-09-10
 
 * `Aws\RTBFabric` - AWS RTB Fabric now lets you control how traffic is routed to your responder gateway across Availability Zones. Set the new clientRoutingPolicy parameter to keep traffic within the same Availability Zone or distribute traffic across all Availability Zones.
