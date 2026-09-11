@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## next release
+## 3.395.0 - 2026-09-11
 
 * `Aws\` - Adds `@phpstan-method` method annotations for better service client static analysis support.
 * `Aws\Invoicing` - Add ListProcurementPortals and ListProcurementPortalSuppliers APIs to retrieve AWS-supported 3rd party procurement portals and their suppliers for e-invoice delivery and purchase order retrieval.
